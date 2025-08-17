@@ -6,5 +6,6 @@
     "python.analysis.extraPaths": [
         "/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller"
 }

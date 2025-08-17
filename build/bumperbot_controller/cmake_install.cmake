@@ -44,8 +44,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_controller" TYPE DIRECTORY FILES
-    "/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller/config"
     "/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller/launch"
+    "/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller/config"
     )
 endif()
 
