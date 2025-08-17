@@ -1,0 +1,15 @@
+[0.047s] Invoking command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.113s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.805s] [31mCMake Error at CMakeLists.txt:10 (install):
+[0.805s]   install DIRECTORY given no DESTINATION!
+[0.806s] 
+[0.806s] [0m
+[0.807s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.146s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.147s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.149s] -- Added test 'lint_cmake' to check CMake code style
+[1.150s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.155s] -- Added test 'xmllint' to check XML markup files
+[1.158s] -- Configuring incomplete, errors occurred!
+[1.166s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.175s] Invoked command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8

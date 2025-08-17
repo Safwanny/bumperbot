@@ -1,0 +1,16 @@
+controller_manager:
+  ros_parameter:
+    update_rate: 100
+    use_sim_time: true
+
+    joint_state_braodcaster:
+      type: joint_state_braodcaster/JointStateBroadcaster
+
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    simple_velocity_controller:
+      ros_parameter:
+        joints:
+          - wheel_left_joint
+          - wheel_right_joint
