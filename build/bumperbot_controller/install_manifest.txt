@@ -1,0 +1,15 @@
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml

@@ -39,4 +39,20 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     </gazebo>
+
+    <gazebo>
+        <xacro:if value="$(arg is_ignition)">   <!-- If on Ros humble load following-->
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+                <parameters>$(find bumperbot_controller)/config/bumperbot_controller.yaml</parameters>
+
+            </plugin>
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_ignition)">   <!-- If on higher version than humble load following-->
+            <plugin filename="gz_ros2_control-system" name="ign_ros2_control::GazeboSimROS2ControlPlugin">
+                <parameters>$(find bumperbot_controller)/config/bumperbot_controller.yaml</parameters>
+
+            </plugin>
+        </xacro:unless>
+    </gazebo>
 </robot>

@@ -10,6 +10,7 @@
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.dae
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.dae
+/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
 /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
