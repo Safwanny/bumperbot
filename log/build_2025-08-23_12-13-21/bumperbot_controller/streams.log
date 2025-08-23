@@ -1,0 +1,58 @@
+[0.032s] Invoking command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.078s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.481s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.528s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.541s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.669s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.932s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.933s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.382s] -- Configuring done (1.3s)
+[1.422s] -- Generating done (0.0s)
+[1.436s] -- Build files have been written to: /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller
+[1.510s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.529s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.950s] running egg_info
+[1.952s] creating bumperbot_controller.egg-info
+[1.990s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.991s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.991s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.991s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.117s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.169s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[14.476s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[14.974s] [100%] Built target simple_controller
+[14.995s] Invoked command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[14.997s] Invoking command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller
+[15.012s] -- Install configuration: ""
+[15.012s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[15.013s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[15.013s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[15.013s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.014s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[15.014s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[15.014s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.014s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[15.014s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[15.071s] Listing '/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[15.072s] Compiling '/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+[15.080s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/include/include
+[15.081s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[15.081s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[15.081s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[15.089s] -- Set non-toolchain portion of runtime path of "/home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[15.090s] -- Up-to-date: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[15.090s] -- Installing: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[15.090s] -- Up-to-date: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[15.090s] -- Up-to-date: /home/safwan/ros_ws/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[15.090s] [31mCMake Error at cmake_install.cmake:105 (file):
+[15.091s]   file INSTALL cannot find
+[15.091s]   "/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/simple_controller.py":
+[15.091s]   No such file or directory.
+[15.091s] 
+[15.091s] [0m
+[15.093s] Invoked command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller

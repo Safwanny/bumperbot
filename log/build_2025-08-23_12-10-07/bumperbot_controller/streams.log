@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.084s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.510s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.600s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.875s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.883s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.080s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.273s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.522s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[1.522s]   ament_python_install_package() the Python package folder
+[1.522s]   '/home/safwan/ros_ws/bumperbot_ws/src/bumperbot_controller/bumperbot_controller'
+[1.522s]   doesn't contain an '__init__.py' file
+[1.522s] Call Stack (most recent call first):
+[1.522s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.523s]   CMakeLists.txt:18 (ament_python_install_package)
+[1.523s] 
+[1.523s] [0m
+[1.523s] -- Configuring incomplete, errors occurred!
+[1.537s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.541s] Invoked command in '/home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/safwan/ros_ws/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
